@@ -1,0 +1,65 @@
+
+
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cod{
+    width: 150px;
+    border-radius: 100px;
+}
+
+.card{
+     border-radius: 10px;
+     padding: 20px;
+     display: flex;
+     justify-content: space-around;
+     width: 400px;
+     margin: auto;
+     text-align: center;
+     background: bisque;
+     color: #2b2839;
+     border-bottom: 8px solid #2b2839;
+     cursor: pointer;
+     float: center;
+     transition: all .4s ease-in-out;
+}
+
+
+
+.cod:hover{
+    transition: .4s ease-in-out ;
+    box-shadow: 2px 2px 6px burlywood;
+}
+
+
+
+.card:hover{
+    box-shadow: 2px 2px 6px #2b2839;
+    border-bottom: 8px solid burlywood;
+    background: #2b2839;
+    color: bisque;
+    transition: all .3s ease-in-out;
+    width: 450px;
+    font-size: 18px;
+}
+
+h3:hover{
+    color: beige;
+    transition: .3s ease-in-out;
+    visibility: visible;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+p:hover{
+    color: rgb(275, 295, 215);
+    transition: .3s ease-in-out;
+}
+
+h4:hover{
+    color: ghostwhite;
+    transition: .3s ease-in-out;
+}
+
+
